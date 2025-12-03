@@ -1,0 +1,43 @@
+.banner {
+    position: relative;
+    height: 100vh;
+    .top-left-image {
+        background-image: url('../../assets/images/bg.svg');
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+        height: 400px;
+        width: 400px;
+        top: 0;
+        z-index: -1;
+        @media screen and (max-width:543px) {
+            height: 200px;
+            width: 200px;
+        }
+    }
+    .top-bottom-image {
+        background-image: url('../../assets/images/bg1.svg');
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        height: 800px;
+        width: 1000px;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        @media screen and (max-width:543px) {
+            height: 400px;
+            width: 400px;
+        }
+    }
+    .profile-img {
+        // background-image: url('../../assets/images/photo.png');
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        height: 400px;
+        width: 400px;
+    }
+}
+
